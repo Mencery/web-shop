@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<security>
+    <constraint>
+        <url-pattern>.*/admin/.*</url-pattern>
+        <role>admin</role>
+    </constraint>
+    <constraint>
+        <url-pattern>.*/order.*</url-pattern>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>.*/cart.*</url-pattern>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>.*/logout.*</url-pattern>
+        <role>user</role>
+        <role>admin</role>
+    </constraint>
+</security>

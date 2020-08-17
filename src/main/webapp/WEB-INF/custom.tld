@@ -1,0 +1,25 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Example TLD</short-name>
+    <tag>
+        <name>captcha</name>
+        <tag-class>com.plekhanov.tag.captchatag.CaptchaTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>login</name>
+        <tag-class>com.plekhanov.tag.logintag.LoginTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>products</name>
+        <tag-class>com.plekhanov.tag.producttag.ProductTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag-file>
+        <name>language</name>
+        <path>/WEB-INF/tags/language.tag</path>
+        <body-content>empty</body-content>
+    </tag-file>
+</taglib>

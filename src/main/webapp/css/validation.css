@@ -1,0 +1,8 @@
+.not-valid{
+  box-shadow: 0 0 3px 2px red;
+  border-radius: 8px;
+}
+.valid{
+  box-shadow: 0 0 3px 2px #00bb5c;
+  border-radius: 8px;
+}
